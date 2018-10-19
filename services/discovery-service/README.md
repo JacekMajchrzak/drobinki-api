@@ -7,10 +7,10 @@
 
 ##Docker
 To build image:
-'''
+```
 docker build -f Dockerfile -t drobinki.api-discovery:0.0.1 . 
-'''
+```
 To run image:
-'''
+```
 docker run -p 8761:8761 drobinki.api-discovery:0.0.1
-'''
+```
